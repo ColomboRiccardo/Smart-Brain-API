@@ -1,20 +1,27 @@
 {
-  "name": "smartbrainAPI",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ColomboRiccardo/Smart-Brain-API.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ColomboRiccardo/Smart-Brain-API/issues"
-  },
-  "homepage": "https://github.com/ColomboRiccardo/Smart-Brain-API#readme"
+	"name": "smartbrainAPI",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ColomboRiccardo/Smart-Brain-API.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/ColomboRiccardo/Smart-Brain-API/issues"
+	},
+	"homepage": "https://github.com/ColomboRiccardo/Smart-Brain-API#readme",
+	"dependencies": {
+		"body-parser": "^1.19.0",
+		"express": "^4.17.1"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.4"
+	}
 }
