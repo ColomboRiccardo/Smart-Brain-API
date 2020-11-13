@@ -8,7 +8,7 @@ const knex = require('knex');
 const bcrypt = require('bcrypt');
 
 const register = require('./controllers/register.js');
-const signin = require('./controllers/signIn.js');
+const signin = require('./controllers/signin.js');
 
 const Clarifai = require('clarifai');
 
