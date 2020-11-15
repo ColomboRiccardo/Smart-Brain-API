@@ -15,7 +15,7 @@ const Clarifai = require('clarifai');
 const db = knex({
 	client: 'pg',
 	connection: {
-		host: process.env.DaTABASE_URL,
+		connectionString: process.env.DaTABASE_URL,
 		ssl: true,
 	},
 });
