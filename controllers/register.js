@@ -27,7 +27,7 @@ const handleRegister = (req, res, db, bcrypt, salt) => {
 			})
 			.then(trx.commit)
 			.catch(trx.rollback);
-	}).catch(err => res.status(400).json('unable to join'));
+	}).catch(err => res.status(400).json(err));
 };
 
 module.exports = {
