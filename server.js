@@ -43,6 +43,9 @@ const salt = bcrypt.genSaltSync(saltRounds);
 app.use(express.json()); //instead of bodyparses
 app.use(cors());
 
+app.get('/', (req, res) => {
+	res.send('it is working');
+});
 app.post('/signin', (req, res) => {
 	signin.handleSignin(req, res, db, bcrypt);
 });
